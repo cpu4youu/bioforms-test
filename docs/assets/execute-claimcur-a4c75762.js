@@ -1,0 +1,1 @@
+import{S as o}from"./index-ce9eb89d.js";import{u as r}from"./use-transaction-6d20b410.js";async function u(a){const{executeTransaction:n}=r(),t=e(a);return!!await n(t)}function e(a){return{actions:[{account:o.playersAle,name:"claimcur",authorization:[{actor:a.name,permission:a.authorization.permission}],data:{wallet:a.name}}]}}export{u as e};
