@@ -1,0 +1,1 @@
+import{e as s,f as o,u as a}from"./index-07d96b58.js";import{f as i}from"./formatFighter-055f7412.js";import{g as n}from"./fighters-a3e0da79.js";const y=e=>s({queryKey:[o.fightersState,e],enabled:!!a.getState().user&&!!e,queryFn:async()=>{const t=(await n(1,"")).filter(r=>r.owner===e);return i(t)},staleTime:1/0,cacheTime:1e3*60*60});export{y as u};
